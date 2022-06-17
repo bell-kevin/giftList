@@ -1,0 +1,5 @@
+package giftlist;
+
+class Gift {
+
+}
