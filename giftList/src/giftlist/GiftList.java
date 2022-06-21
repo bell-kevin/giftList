@@ -16,7 +16,7 @@ public class GiftList {
         String name, occasion, notes;   //input variables for each gift object
         int quantity;                   //input variable for each gift object
         System.out.println("Ch 9 Gifts by Kevin Bell\n");
-        for (int i = 0; i < 4; i++) {
+        for (int i = 0; i < giftList.length; i++) {
             System.out.print("What gift do you want to add to the list? ");
             name = computerKeyboadInput.nextLine();
             System.out.print("What occasion? ");
