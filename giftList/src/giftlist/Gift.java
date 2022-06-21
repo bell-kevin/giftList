@@ -10,7 +10,7 @@ import java.util.Scanner;
 
 public class Gift {
 
-    Scanner stdIn = new Scanner(System.in);
+    Scanner computerKeyboadInput = new Scanner(System.in);
     private final String name;
     private final String occasion;
     private final int quantity;
